@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/llf
+    username: root
+    password: root
+client:
+  config:
+    my-app-name: video-fx
+  boot:
+    fxml: hello-view
+    width: 300.0
+    height: 200.0
